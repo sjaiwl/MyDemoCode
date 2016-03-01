@@ -28,6 +28,7 @@
     |UIViewAutoresizingFlexibleHeight;
     //添加控制器
     [self addChildViewController:_containerVC];
+    //添加视图
     [self.view addSubview:_containerVC.view];
 }
 
