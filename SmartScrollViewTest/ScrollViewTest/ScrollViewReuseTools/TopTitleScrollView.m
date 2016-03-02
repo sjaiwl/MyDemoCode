@@ -101,7 +101,10 @@ static const NSInteger kBottomViewHeight = 2;
     [self scrollRectToVisible:_currentBtn.frame animated:YES];
     //设置内容scroll滚动到指定视图
     if (_contentScroll != nil) {
-        _contentScroll.contentOffset = CGPointMake(self.contentScroll.frame.size.width * currentIndex, 0);
+        [UIView animateWithDuration:kAnimationDuration animations:^{
+            _contentScroll.contentOffset = CGPointMake(self.contentScroll.frame.size.width * currentIndex, 0);
+        }];
+
     }
 }
 

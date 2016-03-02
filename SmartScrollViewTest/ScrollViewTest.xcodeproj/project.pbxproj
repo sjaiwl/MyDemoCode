@@ -15,7 +15,8 @@
 		40129E921BC9481D0049049B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40129E901BC9481D0049049B /* LaunchScreen.storyboard */; };
 		40129E9D1BC9481D0049049B /* ScrollViewTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40129E9C1BC9481D0049049B /* ScrollViewTestTests.m */; };
 		40129EA81BC9481E0049049B /* ScrollViewTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40129EA71BC9481E0049049B /* ScrollViewTestUITests.m */; };
-		40129EB81BC9495D0049049B /* TopTitleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 40129EB71BC9495D0049049B /* TopTitleScrollView.m */; settings = {ASSET_TAGS = (); }; };
+		40129EB81BC9495D0049049B /* TopTitleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 40129EB71BC9495D0049049B /* TopTitleScrollView.m */; };
+		C24379AE1C86932300AB53EA /* iPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = C24379AD1C86932300AB53EA /* iPhone.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		40129EA91BC9481E0049049B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		40129EB61BC9495D0049049B /* TopTitleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopTitleScrollView.h; sourceTree = "<group>"; };
 		40129EB71BC9495D0049049B /* TopTitleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopTitleScrollView.m; sourceTree = "<group>"; };
+		C24379AD1C86932300AB53EA /* iPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhone.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 				40129E8E1BC9481D0049049B /* Assets.xcassets */,
 				40129E901BC9481D0049049B /* LaunchScreen.storyboard */,
 				40129E931BC9481D0049049B /* Info.plist */,
+				C24379AD1C86932300AB53EA /* iPhone.png */,
 				40129E821BC9481D0049049B /* Supporting Files */,
 			);
 			path = ScrollViewTest;
@@ -259,6 +262,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C24379AE1C86932300AB53EA /* iPhone.png in Resources */,
 				40129E921BC9481D0049049B /* LaunchScreen.storyboard in Resources */,
 				40129E8F1BC9481D0049049B /* Assets.xcassets in Resources */,
 				40129E8D1BC9481D0049049B /* Main.storyboard in Resources */,

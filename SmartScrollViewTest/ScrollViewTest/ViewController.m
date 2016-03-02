@@ -19,21 +19,32 @@
 
 @implementation ViewController
 
+- (NSArray *)titleArray{
+    if (!_titleArray) {
+        _titleArray = @[@"首页",@"订阅",@"娱乐",@"科技",@"财经",@"军事",@"社会",@"体育",@"汽车",@"微头条",@"时尚",@"股票",@"互动直播",@"教育",@"历史"];
+    }
+    return _titleArray;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    //设置数组
-    self.titleArray = @[@"首页",@"订阅",@"娱乐",@"科技",@"财经",@"军事",@"社会",@"体育",@"汽车",@"微头条",@"时尚",@"股票",@"互动直播",@"教育",@"历史"];
     //设置scrollView
     self.scrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 64, self.view.frame.size.width, self.view.frame.size.height - 64)];
-    _scrollView.contentSize = CGSizeMake(self.view.frame.size.width * _titleArray.count, 0);
-    _scrollView.delegate = self;
-    _scrollView.pagingEnabled = YES;
-    [self.view addSubview:_scrollView];
+    self.scrollView.contentSize = CGSizeMake(self.view.frame.size.width * self.titleArray.count, 0);
+    self.scrollView.delegate = self;
+    self.scrollView.pagingEnabled = YES;
+
+    for (int i = 0; i < self.titleArray.count; i++) {
+        UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(self.view.frame.size.width * i + 50, 100, 300, 450)];
+        imageView.image = [UIImage imageNamed:@"iPhone"];
+        [self.scrollView addSubview:imageView];
+    }
+    [self.view addSubview:self.scrollView];
     //设置title
     self.titleScroll = [[TopTitleScrollView alloc] initWithFrame:CGRectMake(0, 20, self.view.frame.size.width, 44)];
-    self.titleScroll.titleArray = _titleArray;
-    self.titleScroll.contentScroll = _scrollView;
+    self.titleScroll.titleArray = self.titleArray;
+    self.titleScroll.contentScroll = self.scrollView;
     self.titleScroll.currentIndex = 0;
     self.titleScroll.showsHorizontalScrollIndicator = NO;
     [self.view addSubview:self.titleScroll];
@@ -45,10 +56,7 @@
 }
 
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView{
-    CGPoint point = [scrollView.panGestureRecognizer translationInView:scrollView];
-    NSLog(@"%f,%f",point.x,point.y);
-    NSLog(@"%f",scrollView.contentOffset.x);
-    _titleScroll.bottomView.transform = CGAffineTransformTranslate(_titleScroll.bottomView.transform, 1, 0);
+
 }
 
 - (void)didReceiveMemoryWarning {
