@@ -42,6 +42,7 @@
 - (NSUserDefaults *)groupDefaultes{
     if (!_groupDefaultes) {
         _groupDefaultes = [[NSUserDefaults alloc] initWithSuiteName:APP_GROUP_NAME];
+#warning 注释代码实现方式不正确
 //        _groupDefaultes = [NSUserDefaults standardUserDefaults];
 //        [_groupDefaultes addSuiteNamed:APP_GROUP_NAME];
     }
@@ -119,6 +120,16 @@
         NSLog(@"shared defaultes changed");
         return;
     }
+
+//    if (object == self.groupDefaultes && [keyPath isEqualToString:GROUP_VALUE_KEY_STRING]) {
+//        NSLog(@"group defaultes changed");
+//        return;
+//    }
+//
+//    if (object == self.sharedDefaultes && [keyPath isEqualToString:SHARED_VALUE_KEY_STRING]) {
+//        NSLog(@"shared defaultes changed");
+//        return;
+//    }
 }
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {
