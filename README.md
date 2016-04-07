@@ -9,3 +9,5 @@
 * Mac开发中NSUserDefaults用法解析 [CSDN博客](http://blog.csdn.net/wlaizff/article/details/50878389)
 * Notification和多线程 [CSDN博客](http://blog.csdn.net/wlaizff/article/details/50936566)
 * Runtime解读 [CSDN博客](http://blog.csdn.net/wlaizff/article/details/51030138)
+* RunLoop应用 -- 定时器 [CSDN博客](http://blog.csdn.net/wlaizff/article/details/51068086)
+* RunLoop应用 -- 线程通信 [CSDN博客](http://blog.csdn.net/wlaizff/article/details/51087454)
