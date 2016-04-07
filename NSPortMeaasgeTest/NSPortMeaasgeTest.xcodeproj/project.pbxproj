@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C2E074C01CB6510C00F269FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2E074BF1CB6510C00F269FC /* AppDelegate.m */; };
+		C2E074C31CB6510C00F269FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2E074C21CB6510C00F269FC /* main.m */; };
+		C2E074C51CB6510D00F269FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2E074C41CB6510D00F269FC /* Assets.xcassets */; };
+		C2E074C81CB6510D00F269FC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2E074C61CB6510D00F269FC /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C2E074BB1CB6510C00F269FC /* NSPortMeaasgeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSPortMeaasgeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2E074BE1CB6510C00F269FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C2E074BF1CB6510C00F269FC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C2E074C21CB6510C00F269FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C2E074C41CB6510D00F269FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C2E074C71CB6510D00F269FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C2E074C91CB6510D00F269FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2E074B81CB6510C00F269FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C2E074B21CB6510C00F269FC = {
+			isa = PBXGroup;
+			children = (
+				C2E074BD1CB6510C00F269FC /* NSPortMeaasgeTest */,
+				C2E074BC1CB6510C00F269FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C2E074BC1CB6510C00F269FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2E074BB1CB6510C00F269FC /* NSPortMeaasgeTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2E074BD1CB6510C00F269FC /* NSPortMeaasgeTest */ = {
+			isa = PBXGroup;
+			children = (
+				C2E074BE1CB6510C00F269FC /* AppDelegate.h */,
+				C2E074BF1CB6510C00F269FC /* AppDelegate.m */,
+				C2E074C41CB6510D00F269FC /* Assets.xcassets */,
+				C2E074C61CB6510D00F269FC /* MainMenu.xib */,
+				C2E074C91CB6510D00F269FC /* Info.plist */,
+				C2E074C11CB6510C00F269FC /* Supporting Files */,
+			);
+			path = NSPortMeaasgeTest;
+			sourceTree = "<group>";
+		};
+		C2E074C11CB6510C00F269FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2E074C21CB6510C00F269FC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2E074BA1CB6510C00F269FC /* NSPortMeaasgeTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2E074CC1CB6510D00F269FC /* Build configuration list for PBXNativeTarget "NSPortMeaasgeTest" */;
+			buildPhases = (
+				C2E074B71CB6510C00F269FC /* Sources */,
+				C2E074B81CB6510C00F269FC /* Frameworks */,
+				C2E074B91CB6510C00F269FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSPortMeaasgeTest;
+			productName = NSPortMeaasgeTest;
+			productReference = C2E074BB1CB6510C00F269FC /* NSPortMeaasgeTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2E074B31CB6510C00F269FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = sjaiwl;
+				TargetAttributes = {
+					C2E074BA1CB6510C00F269FC = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = C2E074B61CB6510C00F269FC /* Build configuration list for PBXProject "NSPortMeaasgeTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C2E074B21CB6510C00F269FC;
+			productRefGroup = C2E074BC1CB6510C00F269FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2E074BA1CB6510C00F269FC /* NSPortMeaasgeTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2E074B91CB6510C00F269FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2E074C51CB6510D00F269FC /* Assets.xcassets in Resources */,
+				C2E074C81CB6510D00F269FC /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2E074B71CB6510C00F269FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2E074C31CB6510C00F269FC /* main.m in Sources */,
+				C2E074C01CB6510C00F269FC /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C2E074C61CB6510D00F269FC /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2E074C71CB6510D00F269FC /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C2E074CA1CB6510D00F269FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C2E074CB1CB6510D00F269FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C2E074CD1CB6510D00F269FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NSPortMeaasgeTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sjaiwl.NSPortMeaasgeTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C2E074CE1CB6510D00F269FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NSPortMeaasgeTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sjaiwl.NSPortMeaasgeTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2E074B61CB6510C00F269FC /* Build configuration list for PBXProject "NSPortMeaasgeTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2E074CA1CB6510D00F269FC /* Debug */,
+				C2E074CB1CB6510D00F269FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2E074CC1CB6510D00F269FC /* Build configuration list for PBXNativeTarget "NSPortMeaasgeTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2E074CD1CB6510D00F269FC /* Debug */,
+				C2E074CE1CB6510D00F269FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2E074B31CB6510C00F269FC /* Project object */;
+}
