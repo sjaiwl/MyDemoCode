@@ -304,6 +304,7 @@
 				C2BE616C1CAD2108000C2259 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
